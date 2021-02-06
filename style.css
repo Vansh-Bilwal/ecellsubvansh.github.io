@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    background-color: black;
+    margin-bottom: 60px;
+}
+header h1{
+    text-align: center;
+    padding: 10px 10px;
+}
+header p{
+    text-align: justify;
+    padding: 20px 30px;
+}
+#reg-form{
+   
+    margin-top: 60px;
+    max-width: 1000px;
+    margin:auto;
+    text-align: center;
+    background-color: #93cb52;
+    border: black solid 20px;
+}
+#reg-form h1{
+    font-size: 33px;
+    
+    margin: 20px;
+   
+}
+#reg-form .bt{
+    border-top: white solid 1px;
+    
+}
+#sec-p{
+    padding-bottom: 20px;
+}
+.form-group input{
+    width:90%;
+    padding: 10px 0px;
+    border: white solid 1px;
+    border-radius: 3px;
+    margin:10px 0px;
+}
+#reg-form .btn{
+    background-image: linear-gradient(to right, rgb(29, 240, 75), yellow);
+    width: 90%;
+    padding: 10px 0px;
+    margin: 10px 0px 20px 0px;
+    background-color: white;
+}
+#reg-form .btn:hover{
+  background-image: none;
+  background-color: #71ee9fe2 ;
+}
